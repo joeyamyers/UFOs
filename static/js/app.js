@@ -12,7 +12,7 @@ function buildTable(data) {
     tbody.html("");
 
     // use forEach to iterate through each object in the data
-    data.forEach(dataRow) => {
+    data.forEach((dataRow) => {
         // append to table: tells js to find tbody tag within HTML and add a table row 'tr'
         let row = tbody.append("tr");
 
@@ -21,7 +21,8 @@ function buildTable(data) {
         Object.values(dataRow).forEach((val) => {
             let cell = row.append("td");
             cell.text(val);
-        });
+            }
+        );
     });
 }
 
