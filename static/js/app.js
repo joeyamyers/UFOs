@@ -26,10 +26,24 @@ function buildTable(data) {
 }
 
 function handleClick() {
+    // // Get the datetime value from the filter
     let date = d3.select("#datetime").property("value");
     let filteredData = tableData;
+    
     // check for a date - if one is present, we want it to return only the data with that date
     if (date) {
         filteredData = filteredData.filter(row => row.datetime === date);
     };
+
+    // Rebuild the table using the filtered data
+    // If no date was entered, then filteredData will just be the original tableData.
+    buildTable(filteredData);
+
 }
+
+// Attach an event to listen for the form button
+ // linking our code directly to the filter button w id filter-btn and telling d# to execute our handleCick func when button w an id of filter-btn is clicked
+ d3.selectAll("#filter-btn").on("click", handleClick);
+
+ // Build the table when the page load
+ buildTable(tableData);
