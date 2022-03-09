@@ -6,3 +6,10 @@ The goal of this project is to create an interactive webpage that allows readers
 
 ## Analysis
 ## Summary
+
+
+
+### Tools Used:
+* JavaScript
+* CSS
+* HTML
