@@ -24,3 +24,12 @@ function buildTable(data) {
         });
     });
 }
+
+function handleClick() {
+    let date = d3.select("#datetime").property("value");
+    let filteredData = tableData;
+    // check for a date - if one is present, we want it to return only the data with that date
+    if (date) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+    };
+}
