@@ -5,6 +5,8 @@ __pycache__/
 
 .DS_Store
 app_1.js
+Resources
+
 
 # C extensions
 *.so
