@@ -1,6 +1,6 @@
 # UFOs
 
-## Link to UFO webpage
+### Link to UFO Webpage:
 https://joeyamyers.github.io/UFOs/
 
 ## Overview
@@ -9,7 +9,7 @@ The goal of this project is to create an interactive webpage that allows readers
 
 ## Results
 ### Filtering
-When users navigate to the webpage, they have the ability to filter the table based on the date, city, state, country, or shape. The user may choose to use all, some, or none of the filtering options. 
+When users navigate to the webpage, they have the ability to filter the table based on the date of each occurance, the location of where the occurence took place and the shape of the UFO. The user may choose to use all, some, or none of the filtering options. 
 
 ![](Resources/filterSearch.png)
 
