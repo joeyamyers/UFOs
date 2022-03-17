@@ -13,7 +13,7 @@ When users navigate to the webpage, they have the ability to filter the table ba
 
 ![](Resources/filterSearch.png)
 
-When a filtering option is used, the table will narrow down the visible entries to only include those that meet that specific condition. Below, I have include an image depicting this exact process. I filtered the table for each option provided and narrowed down the entire table to just one UFO occurence that met all the criteria. Users can duplicate this process to filter for whatever criteria suits their needs.
+When a filtering option is used, the table's rows will be narrowed down to only include those that meet that specific condition. Below, I have include an image depicting this exact process. I filtered the table for each option provided and narrowed down the entire table to just one UFO occurence that met all the criteria. Users can duplicate this process to filter for whatever criteria suits their needs.
 
 ![](Resources/filterExample.png)
 
